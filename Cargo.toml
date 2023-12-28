@@ -6,5 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-calamine = "0.18.0"
 rand = "0.8.5"
+spreadsheet-ods = "0.20.2"
+chrono = "0.4.31"
+icu_locid = "1.4.0"
