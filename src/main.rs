@@ -10,7 +10,7 @@ use spreadsheet_ods::format;
 use spreadsheet_ods::formula;
 use spreadsheet_ods::{cm, mm};
 use spreadsheet_ods::style::{CellStyle};
-use icu_locid::locale;
+use icu_locale_core::locale;
 use spreadsheet_ods::style::units::{TextRelief, Border, Length};
 
 const TABLE_SIZE: u32 = 49; //  length of row -1
